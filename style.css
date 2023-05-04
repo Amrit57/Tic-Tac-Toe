@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(75, 72, 72);
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 2px solid black;
+  height: 400px;
+  width: 400px;
+  gap: 2px;
+  margin: 50px;
+}
+.box{
+    background: #000;
+    border: 2px solid red;
+}
