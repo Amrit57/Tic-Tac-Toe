@@ -19,7 +19,7 @@
   font-weight: bold;
 }
 
-button {
+.buttons{
   padding: 10px 15px;
   width: 200px;
   cursor: pointer;
@@ -30,7 +30,7 @@ button {
   background: aqua;
 }
 .box {
-    box-shadow: 0 0 0 2px;
+  box-shadow: 0 0 0 2px;
   background: rgba(255, 0, 0, 0.712);
   border: 2px solid black;
   cursor: pointer;
